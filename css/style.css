@@ -55,16 +55,224 @@ img {
     background: #012D63;
 }
 .logo {
-    
+    margin-right: 152px;
+}
+.nav-list {
+    gap: 29px;
 }
 .nav-link {
     color: var(--accent-color);
         font-size: 24px;
+        font-weight: 300;
         line-height: normal;
         text-decoration: none;
+        display: flex;
 }
 .nav-link:hover,
 .nav-link:focus {
     color: var(--main-color);
     cursor: pointer;
+    font-weight: 400;
 }
+.btn-language {
+    color: #DCDCDC;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+    background: #012D63;
+    border: none;
+}
+.btn-language:hover,
+.btn-language:focus {
+    color: var(--main-color);
+    cursor: pointer;
+    font-weight: 400;
+}
+.div,.nav-list,.language-changer {
+    display: flex;
+    align-items: center;
+    
+}
+.language-changer {
+    margin-left: auto;
+}
+.hero {
+    background: url(../image/fon_3_jpg.jpg);
+    background-size: cover;
+}
+.hero-information {
+    padding: 0;
+    padding-bottom: 183px;
+    padding-top: 94px;
+}
+.logo-nike {
+    width: 160px;
+}
+.hero-subtitle {
+    color: #FFF;
+        font-family: PT Serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 17px;
+        margin-top: -15px;
+}
+.hero-bigtitle {
+    color: #FFF;
+        font-family: Playfair Display;
+        font-size: 144px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: -15px;
+            margin-top: -20px;
+}
+.hero-title {
+    color: #FFF;
+        font-family: Playfair Display;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        margin-top: -35px;
+}
+.hero-text {
+    color: #FFF;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 12px;
+}
+.hero-btn {
+    color: #FFF;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 10px;
+        background: #8E32C6;
+        padding: 20px 61px 19px;
+        margin-top: 41px;
+}
+.hero-subtitle::before {
+    content: '';
+    width: 160px;
+    height: 120px;
+}
+.advantages {
+    background: url(../image/fon_2_jpg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 105px 0;
+}
+.advantages-list {
+    display: flex;
+    border: 5px solid var(--main-bd-color);
+    align-items: center;
+}
+.advantages-title {
+    color: #FFF;
+        text-align: center;
+        font-family: Playfair Display;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 5px;
+}
+.advantages-item {
+    padding: 25px 50px 25px 50px;
+    align-items: center;
+}
+.advantages-item:nth-child(2) {
+    padding: 25px 95px 19px 95px;
+    border-right: 1px solid var(--main-color);
+    border-left: 1px solid var(--main-color);
+    height: 346px;
+}
+.advantages-item:nth-child(2) .advantages-title {
+    margin-top: 10px;
+}
+.reviews {
+    background: url(../image/fon_1_jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 24px;
+    padding-bottom: 114px;
+    
+}
+.rewievs-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.reviews-list {
+    display: flex;
+    gap: 93px;
+}
+.reviews-item {
+border-radius: 15px;
+background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+display: block;
+}
+.reviews-item:nth-child(1) {
+    padding-top: 49px;
+    padding-left: 13px;
+    padding-right: 14px;
+}
+
+.reviews-item:nth-child(2),
+.reviews-item:nth-child(3) {
+    padding-top: 49px;
+    padding-left: 18px;
+    padding-right: 9px;
+}
+.reviews-text {
+    color: #FFF;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 49px 14px 0 13px;
+        width: 228px;
+            height: 112px;
+}
+.date {
+    color: #D8D8D8;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.reviewer-name {
+    color: #FFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.reviews-registration-date {
+    color: #D8D8D8;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+
+
+

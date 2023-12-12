@@ -4,21 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ColoRawe</title>
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Roboto:wght@300;400&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
       <div class="container">
+        <div class="div">
       <img class="logo" src="./image/nike_svg.svg" alt="логотип">
       <nav class="nav">
         <ul class="list nav-list">
@@ -35,39 +36,48 @@
         <li class="language-changer-item"><button class="btn-language">Eng</button></li>
       </ul>
       </div>
+      </div>
     </header>
     <main>
     <section class="hero">
+      <div class="container">
+      <div class="hero-information">
+        <div class="hero-div">
+        <img class="logo-nike" src="./image/nike_svg.svg" alt="logo-nike">
       <p class="hero-subtitle">С&R</p>
-        <h2 class="hero-bigtitle">ColoRawe</h2>
+      </div>
+        <h1 class="hero-bigtitle">ColoRawe</h1>
         <h3 class="hero-title">Your dream Nike</h3>
         <p class="hero-text">
-          On this site you can find custom Nike sneakers of your dreams. The
-          original company caт`t create such beautiful sneakers as we do. Good
-          luck finding your way in the world of custom sneakers.
+          On this site you can find custom Nike sneakers of your dreams.<br> The
+          original company caт`t create such beautiful <br>sneakers as we do. <br> Good
+          luck finding your way in the world of custom sneakers. <br>
         </p>
         <button type="button" class="hero-btn">Buy my Nike</button>
+        </div>
+        </div>
       </section>
       <section class="advantages">
+        <div class="container">
         <ul class="list advantages-list">
-          <li class="advantages-item-title">
-            <h2 class="advantages-title">Premium Quality</h2>
+          <li class="advantages-item">
+            <h3 class="advantages-title">Premium Quality</h3>
             <img
               class="advantages-img"
               src="./image/star_png.png"
               alt="star"
             />
           </li>
-          <li class="advantages-item-title">
+          <li class="advantages-item">
             <img
               class="advantages-img"
               src="./image/color_png.png"
               alt="spray"
             />
-            <h2 class="advantages-title">Indelible paint</h2>
+            <h3 class="advantages-title">Indelible paint</h3>
           </li>
-          <li class="advantages-item-title">
-            <h2 class="advantages-title">Fast shipping</h2>
+          <li class="advantages-item">
+            <h3 class="advantages-title">Fast<br>shipping</h3>
             <img
               class="advantages-img"
               src="./image/gryzovik_png.png"
@@ -75,59 +85,80 @@
             />
           </li>
         </ul>
+        </div>
       </section>
         <section class="reviews">
+          <div class="container">
+            <h3 class="rewievs-title">Reviews</h3>
         <ul class="list reviews-list">
-          <li class="reviews-item-title">
+          <li class="reviews-item">
             <p class="reviews-text">
               Sneakers are very comfortable and well painted, nothing has worn
               off in a year.
             </p>
-            <p class="date">25.11</p>
+            <time class="date">25.11</time>
+            <img class="reviews-img" src="./image/ellipse_jpg_1.jpg" alt="John Teylor">
+            <p class="reviewer-name">John Teylor</p>
+            <p class="reviews-registration-date">With us from 2018</p>
           </li>
-          <li class="reviews-item-title">
+          <li class="reviews-item">
             <p class="reviews-text">
-              I'm very happy with this color scheme. They match all my clothes.
+              I'm very happy with this color scheme.They match all my clothes.
             </p>
-            <p class="date">05.01</p>
+            <time class="date">05.01</time>
+             <img class="reviews-img" src="./image/ellipse_jpd_2.jpg" alt="Elizabeth Garsia">
+            <p class="reviewer-name">Elizabeth Garsia</p>
+            <p class="reviews-registration-date">With us from 2020</p>
           </li>
-          <li class="reviews-item-title">
+          <li class="reviews-item">
             <p class="reviews-text">
-              Just right if you need to go to a party. I use them actively, the
+              Just right if you need to go to a party.<br>I use them actively, the
               paint is super.
             </p>
-            <p class="date">18.06</p>
+            <time class="date">18.06</time>
+             <img class="reviews-img" src="./image/ellipse_jpg_3.jpg" alt="Tom Maquare">
+            <p class="reviewer-name">Tom Maquare</p>
+            <p class="reviews-registration-date">With us from 2019</p>
           </li>
         </ul>
+        </div>
       </section>
       <section class="order">
+        <div class="container">
         <form class="order-form">
-            <input class="order-input" type="text" placeholder="Write your email">
+            <input class="order-input" type="email" placeholder="Write your email">
+            <button class="form-button" type="submit">Confirm</button>
             <input class="order-input" type="text" placeholder="Your Country">
             <input class="order-input" type="text" placeholder="Your City">
             <input class="order-input" type="text" placeholder="Your Adress">
             <button type="submit" class="order-btn">Order my Nike</button>
         </form>
+        </div>
       </section>
     </main>
        <footer>
-        <section class="footer-content">
+        <div class="container">
+         <address class="address">
           <ul class="list question-list">
-            <li class="question-item"><p class="question-text">Have a question?</p></li>
-            <li class="question-item"><p class="question-text">Have a proposal for cooperation?</p></li>
-            <li class="question-item"><p class="question-text">Advertising questions?</p></li>
-          </ul>
-          <address class="address">
-          <ul class="list address-list">
-            <li class="address-item"><a href="ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a></li>
-            <li class="address-item"><a href="ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a></li>
-            <li class="address-item"><a href="ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a></li>
+            <li class="question-item">
+              <p class="question-text">Have a question?</p>
+              <a class="address-link" href="ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a> 
+            </li>
+            <li class="question-item">
+              <p class="question-text">Have a proposal for cooperation?</p>
+              <a class="address-link" href="ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a>
+            </li>
+            <li class="question-item">
+              <p class="question-text">Advertising questions?</p>
+              <a class="address-link"  href="ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a>
+            </li>
           </ul>
           </address>
           <p>2022 ColoRawe @All rights reserved</p>
           <p>United States</p>
+          <img class="footer-logo" src="./image/nike_svg.svg" alt="логотип">
           <p>С&R</p>
-        </section>
+          </div>
       </footer>
   </body>
 </html>
