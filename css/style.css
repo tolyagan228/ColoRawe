@@ -200,13 +200,17 @@ img {
     margin-top: 10px;
 }
 .reviews {
-    background: url(../image/fon_1_jpg.jpg);
+    background-image: url(../image/flowers_png.png),
+    url(../image/fon_1_jpg.jpg);
+    background-position: bottom left, center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 226px 380px, cover;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
     padding-top: 24px;
     padding-bottom: 114px;
-    
 }
+
 .rewievs-title {
     color: #FFF;
     text-align: center;
@@ -216,63 +220,87 @@ img {
     font-weight: 400;
     line-height: normal;
 }
+
+.reviews-item {
+    border-radius: 15px;
+    padding-top: 49px;
+    padding-bottom: 29px;
+    flex-basis: 255px;
+}
+
 .reviews-list {
     display: flex;
     gap: 93px;
+    margin-top: 24px;
+    justify-content: center;
+    align-items: center;
 }
-.reviews-item {
-border-radius: 15px;
-background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
-box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
-display: block;
-}
+
 .reviews-item:nth-child(1) {
-    padding-top: 49px;
+    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
     padding-left: 13px;
     padding-right: 14px;
 }
 
-.reviews-item:nth-child(2),
-.reviews-item:nth-child(3) {
-    padding-top: 49px;
+.reviews-item:nth-child(2) {
+    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
     padding-left: 18px;
     padding-right: 9px;
 }
+
+.reviews-item:nth-child(3) {
+    background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
+    padding-left: 18px;
+    padding-right: 9px;
+}
+
 .reviews-text {
     color: #FFF;
-        font-family: Roboto;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        padding: 49px 14px 0 13px;
-        width: 228px;
-            height: 112px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
+
+.soledar {
+    margin-top: 47px;
+    display: flex;
+}
+
 .date {
     color: #D8D8D8;
-        font-family: Roboto;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
 }
+
+.reviews-img {
+    border-radius: 50%;
+}
+
 .reviewer-name {
     color: #FFF;
-        font-family: Roboto;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5px;
 }
+
 .reviews-registration-date {
     color: #D8D8D8;
-        font-family: Roboto;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5px;
 }
-
-
-
