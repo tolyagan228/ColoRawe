@@ -201,7 +201,7 @@ img {
 }
 
 .rewievs-title {
-    color: #FFF;
+    color: var(--main-color);
     text-align: center;
     font-family: Playfair Display;
     font-size: 48px;
@@ -246,10 +246,11 @@ img {
 }
 
 .reviews-text {
-    color: #FFF;
+    color: var(--main-color);
     font-size: 24px;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 7px;
 }
 
 .div-reviews {
@@ -274,14 +275,12 @@ img {
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
-    margin-left: 5px;
 }
 
 .reviews-registration-date {
     color: #D8D8D8;
     font-size: 12px;
     line-height: normal;
-    margin-left: 5px;
 }
 .order {
     background-image: url(../image/fon_4_jpg.jpg);
@@ -395,6 +394,11 @@ img {
       font-style: normal;
       line-height: normal;
       padding-bottom: 10px;
+  }
+  .address-link:hover,
+  .address-link:focus {
+     cursor: pointer;
+     background-color: #012D63;
   }
   .footer-text {
     color: #FFF;
